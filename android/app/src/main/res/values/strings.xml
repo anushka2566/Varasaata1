@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">VARASAATA - వరసాట</string>
+    <string name="title_activity_main">VARASAATA - వరసాట</string>
+    <string name="package_name">com.anushka.varasaata</string>
+    <string name="custom_url_scheme">com.anushka.varasaata</string>
+</resources>

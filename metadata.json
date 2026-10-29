@@ -1,0 +1,6 @@
+{
+  "name": "Varasaata - Traditional Mill Stone Game",
+  "description": "Varasaata (Nine Men's Morris / వరాస ఆట) classical strategy board game featuring AI toughness levels, customizable move timers, Telugu/Hindi/English translations, player stats dashboard, audio effects, avatar customization, light/dark themes, and online multiplayer room lobby.",
+  "permissions": [],
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

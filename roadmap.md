@@ -1,0 +1,4 @@
+- [ ] Add the owner-provided developer name and support email to the privacy policy and terms.
+- [ ] Make a local offline play mode available for guests, with device-only preferences and match stats; leave account, cloud stats, and consent-protected online play unchanged.
+- [ ] Prepare Capacitor Android and Electron desktop packaging that use the same local game and retain Cloud features when internet is available.
+- [ ] Verify relevant game tests and preview/build health; document platform prerequisites and offline limitations.

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  VARASAATA Adaptive Icon Foreground
+
+  This vector draws the core VARASAATA brand motif: a circular board frame
+  with a warm gold ring, to complement the ic_launcher_foreground.png bitmaps
+  in each mipmap density folder (which carry the full logo detail).
+
+  Android uses the mipmap-* PNG bitmaps for the foreground when they exist;
+  this XML serves as a vector fallback for mipmap-anydpi-v26 adaptive icons.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportHeight="108"
+    android:viewportWidth="108">
+
+    <!-- Outer gold ring -->
+    <path
+        android:fillColor="#C9A44A"
+        android:pathData="M54,8 A46,46 0 1 1 53.9999,8 Z" />
+
+    <!-- Dark wood inner board area -->
+    <path
+        android:fillColor="#3D2510"
+        android:pathData="M54,14 A40,40 0 1 1 53.9999,14 Z" />
+
+    <!-- Board outer square lines (gold) -->
+    <path
+        android:strokeColor="#C9A44A"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M30,30 L78,30 L78,78 L30,78 Z" />
+
+    <!-- Board middle square lines -->
+    <path
+        android:strokeColor="#C9A44A"
+        android:strokeWidth="1.2"
+        android:fillColor="#00000000"
+        android:pathData="M38,38 L70,38 L70,70 L38,70 Z" />
+
+    <!-- Board inner square lines -->
+    <path
+        android:strokeColor="#C9A44A"
+        android:strokeWidth="1.0"
+        android:fillColor="#00000000"
+        android:pathData="M46,46 L62,46 L62,62 L46,62 Z" />
+
+    <!-- Board connecting lines (horizontal) -->
+    <path
+        android:strokeColor="#C9A44A"
+        android:strokeWidth="1.0"
+        android:pathData="M30,54 L38,54 M62,54 L70,54 M78,54 L70,54" />
+
+    <!-- Board connecting lines (vertical) -->
+    <path
+        android:strokeColor="#C9A44A"
+        android:strokeWidth="1.0"
+        android:pathData="M54,30 L54,38 M54,62 L54,70 M54,78 L54,70" />
+
+    <!-- Sample stones (green emeralds) -->
+    <path android:fillColor="#2D7A3E" android:pathData="M54,28 A2.5,2.5 0 1 1 53.99,28 Z" />
+    <path android:fillColor="#2D7A3E" android:pathData="M36,36 A2.5,2.5 0 1 1 35.99,36 Z" />
+    <path android:fillColor="#2D7A3E" android:pathData="M54,54 A2.5,2.5 0 1 1 53.99,54 Z" />
+
+    <!-- Sample stones (red rubies) -->
+    <path android:fillColor="#8B1A1A" android:pathData="M72,36 A2.5,2.5 0 1 1 71.99,36 Z" />
+    <path android:fillColor="#8B1A1A" android:pathData="M28,54 A2.5,2.5 0 1 1 27.99,54 Z" />
+    <path android:fillColor="#8B1A1A" android:pathData="M72,72 A2.5,2.5 0 1 1 71.99,72 Z" />
+
+    <!-- Bottom text background bar -->
+    <path
+        android:fillColor="#C9A44A"
+        android:pathData="M36,82 L72,82 L72,87 L36,87 Z" />
+</vector>
